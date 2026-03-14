@@ -1,0 +1,131 @@
+# 🌸 Bloom — Deployment Guide
+## From Code to Google Play Store
+
+---
+
+## 📁 YOUR FILES CHECKLIST
+
+Make sure you have all these files in one folder:
+- ✅ index.html        ← your main app
+- ✅ manifest.json     ← PWA settings
+- ✅ sw.js             ← service worker (offline support)
+- ✅ icon.svg          ← convert this to icon-192.png and icon-512.png
+- 📷 icon-192.png      ← you need to create this (see Step 1)
+- 📷 icon-512.png      ← you need to create this (see Step 1)
+
+---
+
+## STEP 1 — Create Your App Icons
+
+You need two PNG versions of the icon:
+
+Option A (easiest — free):
+1. Go to https://cloudconvert.com/svg-to-png
+2. Upload your icon.svg file
+3. Set size to 192x192 → download → save as icon-192.png
+4. Repeat with size 512x512 → save as icon-512.png
+
+Option B (also free):
+1. Go to https://realfavicongenerator.net
+2. Upload icon.svg
+3. Download the full icon package
+
+---
+
+## STEP 2 — Deploy to Netlify (free hosting)
+
+1. Go to https://netlify.com and sign up free
+2. On the dashboard click "Add new site" → "Deploy manually"
+3. Drag and drop your ENTIRE FOLDER (with all files) onto the page
+4. Netlify gives you a live link like: https://bloom-yourname.netlify.app
+5. TEST IT on your phone browser — you should see the install banner! 🎉
+
+---
+
+## STEP 3 — Test Your PWA
+
+On Android phone:
+1. Open your Netlify link in Chrome
+2. After a few seconds you'll see "Add Bloom to Home Screen" banner
+3. Tap Install
+4. Bloom appears on your home screen like a real app! 📱
+
+On iPhone (Safari only):
+1. Open your Netlify link in Safari
+2. Tap the Share button (□↑)
+3. Tap "Add to Home Screen"
+4. Tap Add — done! 🌸
+
+---
+
+## STEP 4 — Wrap for Google Play Store
+
+1. Go to https://www.pwabuilder.com (free tool)
+2. Paste your Netlify URL into the search box
+3. Click "Package for stores"
+4. Select "Google Play Store"
+5. Fill in your app details:
+   - App name: Bloom
+   - Package name: com.yourname.bloom
+   - Version: 1.0.0
+6. Click "Generate Package"
+7. Download the APK/AAB file
+
+---
+
+## STEP 5 — Submit to Google Play Store
+
+1. Go to https://play.google.com/console
+2. Sign up for a Google Play Developer account
+3. Pay the ONE-TIME $25 registration fee
+4. Click "Create app"
+5. Fill in app details:
+   - App name: Bloom — Your Daily Companion
+   - Category: Health & Fitness or Productivity
+   - Content rating: Everyone
+6. Upload your AAB file from Step 4
+7. Add screenshots (take them from your phone)
+8. Write your app description
+9. Submit for review
+10. Wait 1–3 days → YOUR APP IS ON THE PLAY STORE! 🎉
+
+---
+
+## 💰 Total Cost Summary
+
+| Item                          | Cost         |
+|-------------------------------|--------------|
+| Netlify hosting               | FREE ✅       |
+| PWABuilder tool               | FREE ✅       |
+| Icon creation tools           | FREE ✅       |
+| Google Play developer account | $25 one-time |
+| Apple App Store (optional)    | $99/year     |
+
+---
+
+## 🆘 Need Help?
+
+If you get stuck at any step, just ask Claude and describe
+exactly which step you're on. I'll help you through it! 🌸
+
+---
+
+## ✨ App Description for Play Store
+
+Copy-paste this for your Play Store listing:
+
+"Bloom is your all-in-one daily companion, designed by women for women.
+
+✦ Daily Journal with highlighter, stickers & writing prompts
+✦ Monthly Planner with colour-coded events & sticky notes  
+✦ Study Timer with Pomodoro method & cute animated mascot
+✦ Period & Cycle Tracker with symptom logging & insights
+✦ Daily motivational quotes & streak rewards
+✦ Unlock new themes and features by completing tasks
+
+Bloom is your cozy pastel space to plan, reflect, study and take
+care of yourself — all in one beautiful app. 🌸"
+
+---
+
+Made with 💜 by Claude for Bloom

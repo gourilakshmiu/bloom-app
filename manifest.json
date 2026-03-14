@@ -1,0 +1,58 @@
+{
+  "name": "Bloom — Your Daily Companion",
+  "short_name": "Bloom",
+  "description": "Your daily companion for journaling, planning, studying and cycle tracking. Created by women, for women.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFF8F4",
+  "theme_color": "#F2A7C3",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["lifestyle", "productivity", "health"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Journal",
+      "short_name": "Journal",
+      "description": "Open your daily journal",
+      "url": "/index.html#journal",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Study Timer",
+      "short_name": "Timer",
+      "description": "Start a study session",
+      "url": "/index.html#timer",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Planner",
+      "short_name": "Planner",
+      "description": "Open your monthly planner",
+      "url": "/index.html#planner",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
